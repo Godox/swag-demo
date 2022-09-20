@@ -2,16 +2,25 @@ const https = require('https');
 
 const unplashApi = 'https://source.unsplash.com/1600x900?dream';
 const quotes = [
-  'Wherever you go, no matter what the weather, always bring your own sunshine.',
-  'You\’re awesome.',
-  'Happiness is the only thing that multiplies when you share it.',
-  'It always seems impossible until it is done.',
-  'Let your unique positive energy inspire confidence in others.',
-  'The best is yet to come.',
-  'You\'re capable of more than you can even dream.',
-  'You deserve the best.',
-  'Keep going, you\'re doing well.',
-  'Stay positive; stay hopeful'
+"J'écris des textes tirés pas les cheveux comme ta meuf en levrette.",
+
+"J'suis trop gore pour le grand public, t'façon j'm'en branle des Victoires de la Musique : j'vise les Hot d'Or !",
+
+"J'suis les Beatles pour les jeunes ados, j'pourrais passer sur Sky, même si mon single s'appelait Fun Radio.",
+
+"J'crache dans tes règles, ça fait ketchup-mayo.",
+
+"Tous les jours j’me couche aux aurores,et j’pars au taf avec une gueule d’enterrement comme si j’étais croque-mort.",
+
+"Ma gueule de bois ferait passer Pinocchio pour un vrai p'tit garçon.",
+
+"Si t'as du flow et pas d'paroles, tu seras jamais plus fort que Scatman.",
+
+"Ton équipe fait pitié comme un orphelinat en Roumanie.",
+
+"J'la baise complètement dead comme si j'étais nécrophile.",
+
+"Dans la nouvelle scène je suis le seul qui sort du lot. Je suis le seul écrivain potable depuis Victor Hugo."
 ];
 
 async function getImage() {
